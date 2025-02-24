@@ -133,11 +133,15 @@ call plug#end()
 "------------------------------------------------------------------
 "---------------------------- My Syntax ----------------------------
 let mapleader = "\<space>"  " space is my leader
-set pastetoggle=<F9>        " map `:set paste` to F9 (can use in insert mode!)
+" set pastetoggle=<F9>        " map `:set paste` to F9 (can use in insert mode!)
 
 if (has("termguicolors"))
  set termguicolors
 endif
+" Set the Cursor highlight group:
+" guifg = the color of the character under the cursor
+" guibg = the color of the cursor itself (the block or underline, etc.)
+highlight Cursor guifg=#ffffff guibg=#ff0000
 set background=dark
 colorscheme codedark
 if has ("autocmd")

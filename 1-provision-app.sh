@@ -2,7 +2,9 @@
 
 # Install latest nvim
 wget https://github.com/neovim/neovim/releases/download/nightly/nvim-linux64.tar.gz -P ~/.local/bin/nvim
+# wget https://github.com/neovim/neovim/releases/download/nightly/nvim-linux-x86_64.tar.gz -P ~/.local/bin/nvim
 cd ~/.local/bin/nvim
+# tar xzvf nvim-linux-x86_64.tar.gz
 tar xzvf nvim-linux64.tar.gz
 
 # Install Plug for neovim

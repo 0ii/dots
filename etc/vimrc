@@ -112,7 +112,7 @@ let g:rustfmt_autosave=1            "Auto format with rustfmt on save
 " display digraphs
 nnoremap <leader>hd :Capture digraphs<cr>
 let mapleader = "\<space>"  " space is my leader
-set pastetoggle=<F9>        " map `:set paste` to F9 (can use in insert mode!)
+" set pastetoggle=<F9>        " map `:set paste` to F9 (can use in insert mode!)
 
 " For when I press shift accidentally
 :command W w

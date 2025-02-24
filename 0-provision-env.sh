@@ -41,12 +41,12 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 . "$HOME/.cargo/env"
 
 ## Install useful rustup tools and global crates
-#rustup install nightly
-#rustup component add rustfmt
-#rustup component add clippy
-#rustup component add rust-src
+rustup install nightly
+rustup component add rustfmt
+rustup component add clippy
+rustup component add rust-src
 
-cargo install ripgrep fd-find cargo-watch watchexec-cli
+cargo install just ripgrep fd-find cargo-watch watchexec-cli
 
 # Set global git username + email
 git config --global user.name "Rachel Rybarczyk"
